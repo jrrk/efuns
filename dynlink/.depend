@@ -1,0 +1,26 @@
+dyneval.cmo: dynlink.cmi ../common/log.cmo \
+    ../common/options.cmi \
+    ../common/utils.cmi 
+dyneval.cmx: dynlink.cmx ../common/log.cmx \
+    ../common/options.cmx \
+    ../common/utils.cmx 
+dynlink.cmo: ../common/compat_run.cmi \
+    ../ocamlsrc/version/include/emitcode.cmi \
+    ../common/instructs.cmo interp.cmo \
+    linker.cmo dynlink.cmi 
+dynlink.cmx: ../common/compat_run.cmx \
+    ../ocamlsrc/version/include/emitcode.cmi \
+    ../common/instructs.cmx interp.cmx \
+    linker.cmx dynlink.cmi 
+interp.cmo: ../common/compat_run.cmi \
+    ../common/instructs.cmo 
+interp.cmx: ../common/compat_run.cmx \
+    ../common/instructs.cmx 
+linker.cmo: ../common/compat_run.cmi \
+    ../ocamlsrc/version/include/emitcode.cmi \
+    ../common/instructs.cmo interp.cmo 
+linker.cmx: ../common/compat_run.cmx \
+    ../ocamlsrc/version/include/emitcode.cmi \
+    ../common/instructs.cmx interp.cmx 
+test.cmo: dynlink.cmi ../ocamlsrc/version/include/instruct.cmi interp.cmo 
+test.cmx: dynlink.cmx ../ocamlsrc/version/include/instruct.cmi interp.cmx 

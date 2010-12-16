@@ -1,0 +1,660 @@
+afterstep.cmo: gwml.cmi ../common/options.cmi \
+    stdconfig.cmi stddeco.cmi themes.cmo \
+    ../common/utils.cmi wob.cmi 
+afterstep.cmx: gwml.cmx ../common/options.cmx \
+    stdconfig.cmx stddeco.cmx themes.cmx \
+    ../common/utils.cmx wob.cmx 
+animate.cmo: gwml.cmi ../common/options.cmi \
+    stdconfig.cmi wob.cmi ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi animate.cmi 
+animate.cmx: gwml.cmx ../common/options.cmx \
+    stdconfig.cmx wob.cmx ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx animate.cmi 
+appMgr.cmo: bar.cmi ../xlib/eloop.cmi \
+    gwml.cmi ../xlib/keyBind.cmo label.cmi \
+    ../common/log.cmo \
+    ../common/options.cmi stdconfig.cmi \
+    top.cmi ../xlib/wintbl.cmi wob.cmi \
+    wobenv.cmi ../xlib/x.cmi \
+    ../xlib/xA.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi appMgr.cmi 
+appMgr.cmx: bar.cmx ../xlib/eloop.cmx \
+    gwml.cmx ../xlib/keyBind.cmx label.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    top.cmx ../xlib/wintbl.cmx wob.cmx \
+    wobenv.cmx ../xlib/x.cmx \
+    ../xlib/xA.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx appMgr.cmi 
+bar.cmo: ../xlib/eloop.cmi gwml.cmi \
+    ../xlib/shape.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi bar.cmi 
+bar.cmx: ../xlib/eloop.cmx gwml.cmx \
+    ../xlib/shape.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx bar.cmi 
+client.cmo: ../xlib/eloop.cmi gwml.cmi \
+    gwml_args.cmo ../xlib/icccm.cmi \
+    ../common/log.cmo \
+    ../common/options.cmi \
+    ../xlib/shape.cmi top.cmi \
+    ../common/utils.cmi \
+    ../xlib/wintbl.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xA.cmi \
+    ../xlib/xbuffer.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xsync.cmi \
+    ../xlib/xtypes.cmi client.cmi 
+client.cmx: ../xlib/eloop.cmx gwml.cmx \
+    gwml_args.cmx ../xlib/icccm.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx \
+    ../xlib/shape.cmx top.cmx \
+    ../common/utils.cmx \
+    ../xlib/wintbl.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xA.cmx \
+    ../xlib/xbuffer.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xsync.cmx \
+    ../xlib/xtypes.cmx client.cmi 
+configurator.cmo: client.cmi gradients.cmi gwml.cmi gwml_args.cmo \
+    ../common/options.cmi sound.cmi \
+    stdconfig.cmi ../common/utils.cmi \
+    ../toolkit/wX_adjust.cmi \
+    ../toolkit/wX_appli.cmi \
+    ../toolkit/wX_bar.cmi \
+    ../toolkit/wX_button.cmi \
+    ../toolkit/wX_dialog.cmi \
+    ../toolkit/wX_display.cmi \
+    ../toolkit/wX_filesel.cmi \
+    ../toolkit/wX_label.cmi \
+    ../toolkit/wX_ledit.cmi \
+    ../toolkit/wX_root.cmi \
+    ../toolkit/wX_scrollbar.cmi \
+    ../toolkit/wX_selector.cmi \
+    ../toolkit/wX_text.cmo \
+    ../toolkit/wX_types.cmi \
+    ../toolkit/wX_viewport.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xtypes.cmi 
+configurator.cmx: client.cmx gradients.cmx gwml.cmx gwml_args.cmx \
+    ../common/options.cmx sound.cmx \
+    stdconfig.cmx ../common/utils.cmx \
+    ../toolkit/wX_adjust.cmx \
+    ../toolkit/wX_appli.cmx \
+    ../toolkit/wX_bar.cmx \
+    ../toolkit/wX_button.cmx \
+    ../toolkit/wX_dialog.cmx \
+    ../toolkit/wX_display.cmx \
+    ../toolkit/wX_filesel.cmx \
+    ../toolkit/wX_label.cmx \
+    ../toolkit/wX_ledit.cmx \
+    ../toolkit/wX_root.cmx \
+    ../toolkit/wX_scrollbar.cmx \
+    ../toolkit/wX_selector.cmx \
+    ../toolkit/wX_text.cmx \
+    ../toolkit/wX_types.cmx \
+    ../toolkit/wX_viewport.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xtypes.cmx 
+cpp.cmo: ../common/utils.cmi 
+cpp.cmx: ../common/utils.cmx 
+dvroom.cmo: gwml.cmi gwml_args.cmo \
+    ../xlib/icccm.cmi \
+    ../common/log.cmo \
+    ../common/options.cmi stdconfig.cmi \
+    ../common/utils.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+dvroom.cmx: gwml.cmx gwml_args.cmx \
+    ../xlib/icccm.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    ../common/utils.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+fvwm.cmo: bar.cmi client.cmi ../concur/concur.cmi gwml.cmi gwml_args.cmo \
+    label.cmi ../common/log.cmo modules.cmo \
+    null.cmi ../common/options.cmi pixmap.cmi \
+    stdconfig.cmi stddeco.cmi user.cmi \
+    ../common/utils.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xA.cmi \
+    ../xlib/xC.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+fvwm.cmx: bar.cmx client.cmx ../concur/concur.cmi gwml.cmx gwml_args.cmx \
+    label.cmx ../common/log.cmx modules.cmx \
+    null.cmx ../common/options.cmx pixmap.cmx \
+    stdconfig.cmx stddeco.cmx user.cmx \
+    ../common/utils.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xA.cmx \
+    ../xlib/xC.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+gnome.cmo: gwml.cmi ../xlib/icccm.cmi \
+    stdconfig.cmi ../common/version.cmi \
+    ../xlib/wintbl.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xA.cmi \
+    ../xlib/xbuffer.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+gnome.cmx: gwml.cmx ../xlib/icccm.cmx \
+    stdconfig.cmx ../common/version.cmx \
+    ../xlib/wintbl.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xA.cmx \
+    ../xlib/xbuffer.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+gradients.cmo: gwml.cmi ../common/options.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi gradients.cmi 
+gradients.cmx: gwml.cmx ../common/options.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx gradients.cmi 
+group.cmo: gwml.cmi stdconfig.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi 
+group.cmx: gwml.cmx stdconfig.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx 
+gwml_args.cmo: ../dynlink/dyneval.cmo \
+    ../common/log.cmo \
+    ../common/options.cmi \
+    ../common/utils.cmi \
+    ../common/version.cmi 
+gwml_args.cmx: ../dynlink/dyneval.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx \
+    ../common/utils.cmx \
+    ../common/version.cmx 
+gwml.cmo: ../concur/concur.cmi \
+    ../xlib/eloop.cmi gwml_args.cmo \
+    imager.cmi ../common/log.cmo \
+    ../common/options.cmi \
+    ../xlib/shape.cmi \
+    ../common/utils.cmi \
+    ../common/version.cmi \
+    ../xlib/wintbl.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xC.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xpm.cmi \
+    ../xlib/xrm.cmi \
+    ../xlib/xsync.cmi \
+    ../xlib/xtypes.cmi gwml.cmi 
+gwml.cmx: ../concur/concur.cmi \
+    ../xlib/eloop.cmx gwml_args.cmx \
+    imager.cmx ../common/log.cmx \
+    ../common/options.cmx \
+    ../xlib/shape.cmx \
+    ../common/utils.cmx \
+    ../common/version.cmx \
+    ../xlib/wintbl.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xC.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xpm.cmx \
+    ../xlib/xrm.cmx \
+    ../xlib/xsync.cmx \
+    ../xlib/xtypes.cmx gwml.cmi 
+gwmlrc.cmo: appMgr.cmi gwml.cmi gwml_args.cmo \
+    ../common/options.cmi stdconfig.cmi \
+    stddeco.cmi stdgwmlrc.cmo themes.cmo wob.cmi \
+    ../xlib/xtypes.cmi 
+gwmlrc.cmx: appMgr.cmx gwml.cmx gwml_args.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    stddeco.cmx stdgwmlrc.cmx themes.cmx wob.cmx \
+    ../xlib/xtypes.cmx 
+image.cmo: ../xlib/eloop.cmi gwml.cmi \
+    gwml_args.cmo imager.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+image.cmx: ../xlib/eloop.cmx gwml.cmx \
+    gwml_args.cmx imager.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+imager.cmo: gwml_args.cmo ../xlib/xtypes.cmi \
+    imager.cmi 
+imager.cmx: gwml_args.cmx ../xlib/xtypes.cmx \
+    imager.cmi 
+label.cmo: ../xlib/eloop.cmi gwml.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtext.cmi \
+    ../xlib/xtypes.cmi label.cmi 
+label.cmx: ../xlib/eloop.cmx gwml.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtext.cmx \
+    ../xlib/xtypes.cmx label.cmi 
+ledit.cmo: ../xlib/eloop.cmi gwml.cmi \
+    label.cmi wob.cmi ../xlib/x.cmi \
+    ../xlib/xC.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xtypes.cmi ledit.cmi 
+ledit.cmx: ../xlib/eloop.cmx gwml.cmx \
+    label.cmx wob.cmx ../xlib/x.cmx \
+    ../xlib/xC.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xtypes.cmx ledit.cmi 
+main.cmo: ../concur/concur.cmi \
+    ../dynlink/dyneval.cmo \
+    ../xlib/eloop.cmi gwml.cmi gwml_args.cmo \
+    ../common/log.cmo \
+    ../common/options.cmi screen.cmo \
+    ../common/utils.cmi \
+    ../common/version.cmi wob.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+main.cmx: ../concur/concur.cmi \
+    ../dynlink/dyneval.cmx \
+    ../xlib/eloop.cmx gwml.cmx gwml_args.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx screen.cmx \
+    ../common/utils.cmx \
+    ../common/version.cmx wob.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+modules.cmo: ../concur/concur.cmi \
+    ../xlib/eloop.cmi gwml.cmi \
+    ../common/options.cmi stdconfig.cmi \
+    ../common/utils.cmi \
+    ../xlib/wintbl.cmi \
+    ../xlib/xbuffer.cmi \
+    ../xlib/xtypes.cmi 
+modules.cmx: ../concur/concur.cmi \
+    ../xlib/eloop.cmx gwml.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    ../common/utils.cmx \
+    ../xlib/wintbl.cmx \
+    ../xlib/xbuffer.cmx \
+    ../xlib/xtypes.cmx 
+null.cmo: ../xlib/eloop.cmi gwml.cmi \
+    ../xlib/shape.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi null.cmi 
+null.cmx: ../xlib/eloop.cmx gwml.cmx \
+    ../xlib/shape.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx null.cmi 
+opttable.cmo: opttable.cmi 
+opttable.cmx: opttable.cmi 
+pixmap.cmo: ../xlib/eloop.cmi gwml.cmi \
+    ../common/options.cmi \
+    ../xlib/shape.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi pixmap.cmi 
+pixmap.cmx: ../xlib/eloop.cmx gwml.cmx \
+    ../common/options.cmx \
+    ../xlib/shape.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx pixmap.cmi 
+plug.cmo: ../xlib/eloop.cmi gwml.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+plug.cmx: ../xlib/eloop.cmx gwml.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+screen.cmo: client.cmi ../xlib/eloop.cmi \
+    gwml.cmi gwml_args.cmo ../xlib/jeton.cmi \
+    ../xlib/keyBind.cmo \
+    ../common/log.cmo \
+    ../common/options.cmi \
+    ../common/utils.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+screen.cmx: client.cmx ../xlib/eloop.cmx \
+    gwml.cmx gwml_args.cmx ../xlib/jeton.cmx \
+    ../xlib/keyBind.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx \
+    ../common/utils.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+sendEvent.cmo: gwml.cmi ../xlib/keyBind.cmo \
+    ../common/utils.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xtypes.cmi 
+sendEvent.cmx: gwml.cmx ../xlib/keyBind.cmx \
+    ../common/utils.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xtypes.cmx 
+session.cmo: fvwm.cmo gwml.cmi modules.cmo 
+session.cmx: fvwm.cmx gwml.cmx modules.cmx 
+sound.cmo: ../concur/concur.cmi \
+    ../common/options.cmi \
+    ../common/utils.cmi sound.cmi 
+sound.cmx: ../concur/concur.cmi \
+    ../common/options.cmx \
+    ../common/utils.cmx sound.cmi 
+stdconfig.cmo: bar.cmi client.cmi ../concur/concur.cmi \
+    ../dynlink/dyneval.cmo \
+    ../xlib/eloop.cmi gwml.cmi gwml_args.cmo \
+    label.cmi ledit.cmi ../common/log.cmo \
+    ../common/options.cmi opttable.cmi \
+    top.cmi ../common/utils.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xlib.cmi \
+    ../xlib/xrm.cmi \
+    ../xlib/xsync.cmi \
+    ../xlib/xtypes.cmi stdconfig.cmi 
+stdconfig.cmx: bar.cmx client.cmx ../concur/concur.cmi \
+    ../dynlink/dyneval.cmx \
+    ../xlib/eloop.cmx gwml.cmx gwml_args.cmx \
+    label.cmx ledit.cmx ../common/log.cmx \
+    ../common/options.cmx opttable.cmx \
+    top.cmx ../common/utils.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xrm.cmx \
+    ../xlib/xsync.cmx \
+    ../xlib/xtypes.cmx stdconfig.cmi 
+stddeco.cmo: animate.cmi bar.cmi ../concur/concur.cmi gwml.cmi \
+    ../xlib/icccm.cmi label.cmi ledit.cmi \
+    ../common/log.cmo null.cmi \
+    ../common/options.cmi pixmap.cmi \
+    sound.cmi stdconfig.cmi stdicon.cmo stdplacement.cmo text.cmi top.cmi \
+    user.cmi ../common/utils.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xA.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi stddeco.cmi 
+stddeco.cmx: animate.cmx bar.cmx ../concur/concur.cmi gwml.cmx \
+    ../xlib/icccm.cmx label.cmx ledit.cmx \
+    ../common/log.cmx null.cmx \
+    ../common/options.cmx pixmap.cmx \
+    sound.cmx stdconfig.cmx stdicon.cmx stdplacement.cmx text.cmx top.cmx \
+    user.cmx ../common/utils.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xA.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx stddeco.cmi 
+stdgwmlrc.cmo: afterstep.cmo animate.cmi appMgr.cmi dvroom.cmo \
+    ../dynlink/dyneval.cmo fvwm.cmo gnome.cmo \
+    group.cmo gwml.cmi gwml_args.cmo modules.cmo \
+    ../common/options.cmi sound.cmi \
+    stdconfig.cmi stddeco.cmi stdicon.cmo stdmenus.cmi stdplacement.cmo \
+    stdvirtual.cmo themes.cmo twm.cmo undo.cmo user.cmi \
+    ../common/utils.cmi \
+    ../common/version.cmi \
+    ../xlib/wintbl.cmi wmaker.cmi wob.cmi \
+    wobenv.cmi ../xlib/x.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+stdgwmlrc.cmx: afterstep.cmx animate.cmx appMgr.cmx dvroom.cmx \
+    ../dynlink/dyneval.cmx fvwm.cmx gnome.cmx \
+    group.cmx gwml.cmx gwml_args.cmx modules.cmx \
+    ../common/options.cmx sound.cmx \
+    stdconfig.cmx stddeco.cmx stdicon.cmx stdmenus.cmx stdplacement.cmx \
+    stdvirtual.cmx themes.cmx twm.cmx undo.cmx user.cmx \
+    ../common/utils.cmx \
+    ../common/version.cmx \
+    ../xlib/wintbl.cmx wmaker.cmx wob.cmx \
+    wobenv.cmx ../xlib/x.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+stdicon.cmo: gwml.cmi label.cmi null.cmi \
+    ../common/options.cmi pixmap.cmi \
+    stdconfig.cmi top.cmi user.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/xA.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xrm.cmi \
+    ../xlib/xtypes.cmi 
+stdicon.cmx: gwml.cmx label.cmx null.cmx \
+    ../common/options.cmx pixmap.cmx \
+    stdconfig.cmx top.cmx user.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/xA.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xrm.cmx \
+    ../xlib/xtypes.cmx 
+stdmenus.cmo: bar.cmi gwml.cmi label.cmi \
+    ../common/options.cmi pixmap.cmi \
+    stdconfig.cmi top.cmi ../common/utils.cmi \
+    wob.cmi wobenv.cmi ../xlib/x.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi stdmenus.cmi 
+stdmenus.cmx: bar.cmx gwml.cmx label.cmx \
+    ../common/options.cmx pixmap.cmx \
+    stdconfig.cmx top.cmx ../common/utils.cmx \
+    wob.cmx wobenv.cmx ../xlib/x.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx stdmenus.cmi 
+stdplacement.cmo: ../concur/concur.cmi gwml.cmi \
+    ../common/options.cmi stdconfig.cmi \
+    user.cmi wob.cmi wobenv.cmi ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+stdplacement.cmx: ../concur/concur.cmi gwml.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    user.cmx wob.cmx wobenv.cmx ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+stdscreen.cmo: client.cmi gwml.cmi stdconfig.cmi stddeco.cmi \
+    ../common/utils.cmi wob.cmi wobenv.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+stdscreen.cmx: client.cmx gwml.cmx stdconfig.cmx stddeco.cmx \
+    ../common/utils.cmx wob.cmx wobenv.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+stdvirtual.cmo: ../concur/concur.cmi \
+    ../xlib/eloop.cmi gwml.cmi \
+    ../xlib/icccm.cmi \
+    ../common/log.cmo \
+    ../common/options.cmi stdconfig.cmi \
+    top.cmi ../common/utils.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xC.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+stdvirtual.cmx: ../concur/concur.cmi \
+    ../xlib/eloop.cmx gwml.cmx \
+    ../xlib/icccm.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    top.cmx ../common/utils.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xC.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+text.cmo: ../xlib/eloop.cmi gwml.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtext.cmi \
+    ../xlib/xtypes.cmi text.cmi 
+text.cmx: ../xlib/eloop.cmx gwml.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtext.cmx \
+    ../xlib/xtypes.cmx text.cmi 
+themes.cmo: gwml.cmi gwml_args.cmo imager.cmi \
+    ../common/options.cmi stdconfig.cmi \
+    ../common/utils.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xtypes.cmi 
+themes.cmx: gwml.cmx gwml_args.cmx imager.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    ../common/utils.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xtypes.cmx 
+top.cmo: ../xlib/eloop.cmi gwml.cmi \
+    ../xlib/icccm.cmi \
+    ../common/log.cmo \
+    ../common/options.cmi \
+    ../xlib/shape.cmi \
+    ../xlib/wintbl.cmi wob.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi top.cmi 
+top.cmx: ../xlib/eloop.cmx gwml.cmx \
+    ../xlib/icccm.cmx \
+    ../common/log.cmx \
+    ../common/options.cmx \
+    ../xlib/shape.cmx \
+    ../xlib/wintbl.cmx wob.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx top.cmi 
+twm_l.cmo: twm_p.cmi twm_t.cmo 
+twm_l.cmx: twm_p.cmx twm_t.cmx 
+twm.cmo: bar.cmi client.cmi gwml.cmi label.cmi null.cmi \
+    ../common/options.cmi pixmap.cmi \
+    stdconfig.cmi stddeco.cmi twm_l.cmo twm_p.cmi twm_t.cmo user.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xC.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi 
+twm.cmx: bar.cmx client.cmx gwml.cmx label.cmx null.cmx \
+    ../common/options.cmx pixmap.cmx \
+    stdconfig.cmx stddeco.cmx twm_l.cmx twm_p.cmx twm_t.cmx user.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xC.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx 
+twm_p.cmo: twm_t.cmo ../xlib/xtypes.cmi \
+    twm_p.cmi 
+twm_p.cmx: twm_t.cmx ../xlib/xtypes.cmx \
+    twm_p.cmi 
+undo.cmo: stdconfig.cmi 
+undo.cmx: stdconfig.cmx 
+user.cmo: animate.cmi ../xlib/eloop.cmi \
+    gwml.cmi ../xlib/keyBind.cmo \
+    ../common/options.cmi stdconfig.cmi \
+    top.cmi ../xlib/wintbl.cmi wob.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xC.cmi \
+    ../xlib/xK.cmo \
+    ../xlib/xlib.cmi \
+    ../xlib/xtypes.cmi user.cmi 
+user.cmx: animate.cmx ../xlib/eloop.cmx \
+    gwml.cmx ../xlib/keyBind.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    top.cmx ../xlib/wintbl.cmx wob.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xC.cmx \
+    ../xlib/xK.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xtypes.cmx user.cmi 
+wmaker.cmo: ../concur/concur.cmi cpp.cmo gradients.cmi gwml.cmi \
+    ../common/options.cmi stdconfig.cmi \
+    stddeco.cmi themes.cmo \
+    ../common/utils.cmi wob.cmi wmaker.cmi 
+wmaker.cmx: ../concur/concur.cmi cpp.cmx gradients.cmx gwml.cmx \
+    ../common/options.cmx stdconfig.cmx \
+    stddeco.cmx themes.cmx \
+    ../common/utils.cmx wob.cmx wmaker.cmi 
+wobenv.cmo: wobenv.cmi 
+wobenv.cmx: wobenv.cmi 
+wob.cmo: ../concur/concur.cmi \
+    ../xlib/eloop.cmi gradients.cmi gwml.cmi \
+    imager.cmi ../xlib/keyBind.cmo \
+    ../common/options.cmi \
+    ../common/utils.cmi \
+    ../xlib/wintbl.cmi wobenv.cmi \
+    ../xlib/x.cmi \
+    ../xlib/xlib.cmi \
+    ../xlib/xsync.cmi \
+    ../xlib/xtypes.cmi wob.cmi 
+wob.cmx: ../concur/concur.cmi \
+    ../xlib/eloop.cmx gradients.cmx gwml.cmx \
+    imager.cmx ../xlib/keyBind.cmx \
+    ../common/options.cmx \
+    ../common/utils.cmx \
+    ../xlib/wintbl.cmx wobenv.cmx \
+    ../xlib/x.cmx \
+    ../xlib/xlib.cmx \
+    ../xlib/xsync.cmx \
+    ../xlib/xtypes.cmx wob.cmi 
+animate.cmi: gwml.cmi ../common/options.cmi \
+    stdconfig.cmi ../xlib/xtypes.cmi 
+appMgr.cmi: ../common/options.cmi \
+    stdconfig.cmi 
+bar.cmi: gwml.cmi wob.cmi 
+client.cmi: gwml.cmi ../common/options.cmi \
+    ../xlib/shape.cmi wob.cmi \
+    ../xlib/xtypes.cmi 
+gradients.cmi: ../common/options.cmi 
+gwml.cmi: ../xlib/eloop.cmi \
+    ../common/options.cmi \
+    ../xlib/shape.cmi \
+    ../xlib/wintbl.cmi wobenv.cmi \
+    ../xlib/xpm.cmi \
+    ../xlib/xrm.cmi \
+    ../xlib/xtypes.cmi 
+imager.cmi: ../xlib/xtypes.cmi 
+label.cmi: gwml.cmi wob.cmi 
+ledit.cmi: gwml.cmi label.cmi 
+null.cmi: gwml.cmi wob.cmi 
+pixmap.cmi: gwml.cmi wob.cmi \
+    ../xlib/xtypes.cmi 
+sound.cmi: ../common/options.cmi 
+stdconfig.cmi: gwml.cmi label.cmi ledit.cmi \
+    ../common/options.cmi opttable.cmi \
+    top.cmi wobenv.cmi ../xlib/xtypes.cmi 
+stddeco.cmi: gwml.cmi ledit.cmi \
+    ../common/options.cmi stdconfig.cmi \
+    top.cmi 
+stdmenus.cmi: ../common/options.cmi 
+text.cmi: gwml.cmi wob.cmi 
+top.cmi: gwml.cmi ../common/options.cmi \
+    wob.cmi ../xlib/xtypes.cmi 
+twm_p.cmi: twm_t.cmo 
+user.cmi: gwml.cmi ../xlib/xtypes.cmi 
+wmaker.cmi: ../common/options.cmi \
+    stdconfig.cmi 
+wob.cmi: gwml.cmi imager.cmi \
+    ../common/options.cmi wobenv.cmi \
+    ../xlib/xtypes.cmi 

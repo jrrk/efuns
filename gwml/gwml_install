@@ -1,0 +1,12 @@
+#!/bin/sh
+CONFIG_DIR=$HOME/.gwml-
+echo Installing in $CONFIG_DIR
+mkdir -p $CONFIG_DIR
+cd /usr/local/lib/gwml/3.12.0-/config
+cp -f * $CONFIG_DIR/
+touch $CONFIG_DIR/.depend
+cd $CONFIG_DIR
+make depend
+echo Installation done
+echo Dont forget to compile the files with make
+echo after modification
